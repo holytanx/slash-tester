@@ -21,24 +21,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {/* Your Header with the safe-area-inset calculation */}
-        <header
-          style={{
-            paddingTop: 'calc(env(safe-area-inset-top) + 10px)',
-            paddingBottom: '10px',
-            paddingLeft: '20px',
-            paddingRight: '20px',
-            backgroundColor: '#000000', // Change to your preferred color
-            color: '#ffffff',
-            fontSize: '1.5rem',
-            fontWeight: 'bold',
-            textAlign: 'center',
-            borderBottom: '1px solid #333'
-          }}
-        >
-          Yongza
-        </header>
-        
         {/* The rest of your app content goes here */}
         <main>{children}</main>
       </body>
